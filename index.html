@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+</head>
+<body>
+    <main class="row justify-content-center p-5">
+        <section class="col-lg-6 col-md-6 col-sm-12">
+          <div class="w-75 mx-auto">
+              <img src="images/mac.png" class="img-fluid">
+          </div>
+          
+        </section>
+
+        <section class="col-lg-6 col-md-6 col-sm-12">
+           <div>
+           <div>
+               <h2>Customize Your Blue 24-Inch <br> iMac With Apple M1 Chip.</h2>
+               <p class="w-75">The 24-inch iMac has a bi-directional Mini DisplayPort or a Thunderbolt port (depending on the model) that can be used to drive a second monitor. The same Mini DisplayPort or Thunderbolt port can be used as a video input that allows your iMac to serve as a monitor for another Mac.</p>
+           </div>
+
+           <div class="mt-5">
+               <div class="mb-5">
+                <h6>Memory</h6>
+                <button id="memory-btn-one" type="button" class="btn btn-outline-secondary">8GB unified memory</button> 
+                <button id="memory-btn-two" type="button" class="btn btn-outline-secondary">16GB unified memory</button> 
+            </div>
+
+            <div class="mb-5">
+                <h6>Storage</h6>
+                <button id="ssd-btn-one" type="button" class="btn btn-outline-secondary">256GB ssd storage</button> 
+                <button id="ssd-btn-two" type="button" class="btn btn-outline-secondary">512GB ssd storage</button> 
+                <button id="ssd-btn-three" type="button" class="btn btn-outline-secondary">1TB ssd storage</button> 
+            </div>
+
+            <div class="mb-5">
+                <h6>Chose your delivery option</h6>
+                <button id="charge-btn-one" type="button" class="btn btn-outline-secondary">Friday,Aug 25 free Prime Delivery</button> 
+                <button id="charge-btn-two" type="button" class="btn btn-outline-secondary">Friday,Aug 21 Delivery charge $20 </button> 
+            </div>
+            </div>
+
+            <div class="w-50">
+               <div class="d-flex justify-content-between">
+                   <h6>Best Price</h6>
+                   <h6 class="me-4">$ <span id="best-price">1299</span> </h6>
+               </div>
+               <hr>
+
+               <div class="d-flex justify-content-between">
+                <h6>Extra memory cost</h6>
+                <h6 class="me-5">$ <span id="memory-price">0</span> </h6>
+            </div>
+            <hr>
+
+            <div class="d-flex justify-content-between">
+                <h6>Extra storage cost</h6>
+                <h6 class="me-5">$ <span id="ssd-price">0</span> </h6>
+            </div>
+            <hr>
+            
+            <div class="d-flex justify-content-between">
+                <h6>Delivery charge</h6>
+                <h6 class="me-5">$ <span id="charge-price">0</span> </h6>
+            </div>
+            <hr class="border border-dark">
+
+            <div class="d-flex justify-content-between mb-3">
+                <h6>Total price</h6>
+                <h6 class="me-4">$ <span id="total-price">1299</span> </h6>
+            </div>
+            <p>Add promo code</p>
+
+            <div class="input-group mb-4">
+                <input id="apply-input" type="text" class="form-control" placeholder="stevekaku">
+                <button id="apply-btn" class="btn btn-danger">Apply</button>
+              </div>
+            </div>
+            </section>
+            <hr class="w-75 border border-dark">
+            <h3 class="d-flex justify-content-center">Total: $ <span id="last-total-price">1299</span></h3>
+    </main>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
